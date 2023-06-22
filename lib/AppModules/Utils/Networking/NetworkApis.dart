@@ -1,0 +1,42 @@
+class ApisUtills {
+  final baseUrl = "https://app.aizacreationzz.com/";
+  // final baseUrl = "https://app.tradingregion.com/";
+  final imageUrl = "https://app.aizacreationzz.com/upload/images/";
+  // final imageUrl ="https://app.tradingregion.com/upload/images/";
+  final loginUrl = "apis/login";
+  final registerUrl = "apis/registration/";
+  final sendOTPUrl = "apis/otpcoderesend";
+  final verifyOTPURL = "apis/verifyotp";
+  final changePassURL = "apis/updatepassword";
+  final getAllProductUrl = "apis/product";
+  final getAllFavProductUrl = "apis/isfavpro";
+  final getAllCategoryUrl = "apis/categories";
+  final addToCartUrl = "apis/addtocart";
+  final addToFAVUrl = "apis/Addtofav";
+  final removeFromFAVUrl = "apis/removeitemfromfav";
+  final preBookingListUrl = "apis/prebooking";
+  final myPreBookingListUrl = "apis/prebooklist";
+  final confirmprebookUrl = "apis/confirmprebook";
+  final removePrebookingUrl = "/apis/removeitemfromPrebooking";
+  final productmultipleUrl = "apis/productmultiple";
+  final sliderUrl = "apis/slider";
+  final getSliderData = "apis/getsliderData/";
+  final faqsUrl = "apis/faqs";
+  final favUrl = "apis/fav";
+  final productsUrl = "apis/product";
+  final productByCatgoryIdUrl = "apis/productbycatid/";
+  final userByIdUrl = "apis/userbyid/";
+  // ignore: non_constant_identifier_names
+  final update_user_url = "apis/useredit/";
+  final contactDetailUrl = "apis/contactdetails";
+  final getCartListUrl = "apis/cartlist/";
+  final editCartUrl = "apis/cartedit";
+  final deleteCartUrl = "apis/removeitemfromlist";
+  final buyCartUrl = "apis/confirmbuy";
+  final myOrderUrl = "apis/myorders";
+  final myordersdetailsUrl = "apis/myordersdetails";
+  final changePassword = "apis/changepassword";
+  final getVideoList = "/apis/getvideolist";
+  final getPreBookAd = "apis/getprebookAd";
+  final preBookById = "apis/getprebookAdById/";
+}
